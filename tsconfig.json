@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
+    "target": "ES5", // 想要的编译后的结果
+    "module": "ES6", // 使用什么模块处理模式
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
