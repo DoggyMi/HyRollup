@@ -1,3 +1,3 @@
-import { testB } from "./src/TestB";
+import { testB } from "./src/TestB"; /*  */
 
-testB();
+export default testB;

@@ -6,6 +6,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "moduleResolution": "Bundler" // 可以让你使用 exports 声明类型的同时，使用相对路径模块可以不写扩展名。 https://zhuanlan.zhihu.com/p/621795173
+    "moduleResolution": "Bundler", // 可以让你使用 exports 声明类型的同时，使用相对路径模块可以不写扩展名。 https://zhuanlan.zhihu.com/p/621795173
+    "declaration": true,
+    "outDir": "./dist"
   }
 }

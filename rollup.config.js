@@ -1,6 +1,8 @@
 import typescript from "@rollup/plugin-typescript";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
+import { babel } from "@rollup/plugin-babel";
+
 import json from "@rollup/plugin-json";
 
 export default {
@@ -15,5 +17,6 @@ export default {
     typescript(),
     nodeResolve({ browser: true }), //commonjs(),
     json(),
+    // babel({ babelHelpers: "bundled" }),
   ],
 };
