@@ -1,4 +1,4 @@
-import testA from "./TestA";
+import testA from "./TestA.ts";
 
 export const testB = (...params: any) => {
   testA(10);
