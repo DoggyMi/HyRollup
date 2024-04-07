@@ -1,3 +1,3 @@
-import { testB } from "./src/TestB.ts";
+import { testB } from "./src/TestB";
 
 testB();

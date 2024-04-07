@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES5", // 想要的编译后的结果
-    "module": "NodeNext", // 使用什么模块处理模式
+    "module": "ES6", // 使用什么模块处理模式
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "emitDeclarationOnly": false
+    "moduleResolution": "Bundler" // 可以让你使用 exports 声明类型的同时，使用相对路径模块可以不写扩展名。 https://zhuanlan.zhihu.com/p/621795173
   }
 }
